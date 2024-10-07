@@ -13,6 +13,7 @@ find_package(rclcpp REQUIRED)
 find_package(builtin_interfaces REQUIRED)
 find_package(ament_index_cpp REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 set(INTERFACE_FILES "")
@@ -48,6 +49,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   ${INTERFACE_FILES}
   DEPENDENCIES
     std_msgs
+    geometry_msgs
 )
 
 ament_export_dependencies(rosidl_default_runtime)

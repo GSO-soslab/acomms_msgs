@@ -8,6 +8,7 @@
   <maintainer email="linzhao@uri.edu">Lin Zhao</maintainer>
   <author email="linzhao@uri.edu">Lin Zhao</author>
   <author email="croman2@uri.edu">Chris Roman</author>
+  <author email="mzhou@uri.edu">Mingxi Zhou</author>
 
   <license>which one</license>
 
@@ -19,6 +20,7 @@
   <depend>ament_index_cpp</depend>
 
   <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
 
   <member_of_group>rosidl_interface_packages</member_of_group>
 
