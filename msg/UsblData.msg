@@ -1,6 +1,6 @@
 std_msgs/Header header
-float32 current_time
-float32 measurement_time
+float64 current_time
+float64 measurement_time
 int32 remote_address
 geometry_msgs/Vector3 xyz
 geometry_msgs/Vector3 enu
